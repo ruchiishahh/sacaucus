@@ -65,7 +65,7 @@ Table of Content:
   width: 100%;
   opacity: 0;
   transition: .3s ease;
-  background-color: red;
+  background-color: black;
 }
 
 .ASUCcontainer:hover .ASUCoverlay {
@@ -74,9 +74,9 @@ Table of Content:
 
 .ASUCtext {
   color: white;
-  font-size: 50px;
+  font-size: 25px;
   position: absolute;
-  bottom: 10%;
+  bottom: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -85,7 +85,7 @@ Table of Content:
 
 .ASUCicon {
   color: white;
-  font-size: 100px;
+  font-size: 50px;
   position: absolute;
   top: 50%;
   left: 50%;
