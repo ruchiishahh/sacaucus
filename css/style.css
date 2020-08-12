@@ -43,6 +43,87 @@ Table of Content:
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 
+.my-fb-icon {
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+  text-align: center;
+  color: white;
+  background-color: #4267B2;
+  line-height: 50px;
+  vertical-align: middle;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.my-org-fb-icon {
+  margin: 20px;
+  width: 70px;
+  height: 70px;
+  vertical-align: middle;
+  text-align: center;
+  color: white;
+  background-color: #4267B2;
+  line-height: 70px;
+  vertical-align: middle;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.my-zoom-join-icon {
+  margin: 10px;
+  width: 120px;
+  height: 50px;
+  vertical-align: middle;
+  text-align: center;
+  color: white;
+  background-color: white;
+  font: white;
+  line-height: 50px;
+  vertical-align: middle;
+  border-radius: 10px;
+  display: inline-block;
+  border-color: #4267B2
+
+}
+
+.float-shadow-desipalooza-part1 {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+
+}
+
+.float-shadow {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+
+.float-shadow:hover {
+  box-shadow: 0 5px 5px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22);
+}
+
+.float-shadow-red {
+  box-shadow: 0 1px 3px rgba(255,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.float-shadow-red:hover {
+  box-shadow: 0 10px 10px rgba(255,0,0,0.5), 0 5px 5px rgba(0,0,0,0.22);
+}
+
+.float-shadow-purple {
+  box-shadow: 0 1px 3px rgba(144,154,248,0.12), 0 1px 2px rgba(144,154,248,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.float-shadow-purple:hover {
+  box-shadow: 0 10px 10px rgba(144,154,248,0.5), 0 5px 5px rgba(144,154,248,0.22);
+}
+
+
+
 .ASUCcontainer {
   position: relative;
   width: 100%;
@@ -685,7 +766,8 @@ i:before {
   width: 213px;
   height: 1px;
   position: absolute;
-  background: #ced0e0;
+  background: rgb(149,146,248);
+  background: linear-gradient(90deg, rgba(149,146,248,1) 35%, rgba(130,181,248,1) 100%);
   left: 0px;
   bottom: 0px;
 }
@@ -694,7 +776,7 @@ i:before {
   font-size: 72px;
   color: #0b1033;
   font-family: "Roboto", sans-serif;
-  font-weight: normal;
+  font-weight: lighter;
 }
 
 .banner_inner_text p {
@@ -703,6 +785,83 @@ i:before {
   font-family: "Roboto", sans-serif;
   font-weight: normal;
   padding-top: 15px;
+}
+
+
+/* ruchi adding */
+
+.intro_banner_inner_text {
+  padding-top: 200px;
+  position: relative;
+  padding-bottom: 50px;
+}
+
+.intro_banner_inner_text:before {
+  content: "";
+  width: 400px;
+  height: 3px;
+  position: absolute;
+  background: rgb(149,146,248);
+  background: linear-gradient(90deg, rgba(149,146,248,1) 35%, rgba(130,181,248,1) 100%);
+  left: 0px;
+  bottom: 0px;
+}
+
+.intro_banner_inner_text h2 {
+  font-size: 90px;
+  color: #0b1033;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+}
+
+.intro_banner_inner_text p {
+  font-size: 24px;
+  color: #6b7d8e;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  padding-top: 15px;
+}
+
+.desipalooza-schedule{
+  font-size: 50px;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+  text-align: center;
+  font-style: bold;
+}
+
+.desipalooza-schedule-part1{
+  font-size: 35px;
+  color: gray;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.desipalooza-schedule-paragraph{
+  font-size: 20px;
+  color: gray;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.desipalooza-schedule-org-text{
+  font-size: 20px;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+  text-align: center;
+  font-style: bold;
+  padding-bottom: 1px;
+  padding-top: : 1px;
+
+}
+
+.desipalooza-schedule-section-part1{
+  align-items: center;
+
 }
 
 /* End Banner Area css
