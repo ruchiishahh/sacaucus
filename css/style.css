@@ -578,6 +578,24 @@ i:before {
 /*----------------------------------------------------*/
 /* Banner Area css
 ============================================================================================ */
+
+.desipalooza_banner_area {
+  position: relative;
+  z-index: 3;
+  overflow: hidden;
+}
+
+.desipalooza_banner_area:before {
+  content: "";
+  background: url(../img/banner/banner-bg5.png) no-repeat scroll center;
+  position: absolute;
+  right: -50px;
+  top: 70px;
+  height: 100%;
+  max-width: 1233px;
+  width: 100%;
+}
+
 .banner_area {
   position: relative;
   z-index: 3;
@@ -586,7 +604,7 @@ i:before {
 
 .banner_area:before {
   content: "";
-  background: url(../img/banner/banner-bg.png) no-repeat scroll center right;
+  background: url(../img/banner/banner-bg5.png) no-repeat scroll center;
   position: absolute;
   right: 0px;
   top: 0px;
@@ -596,9 +614,9 @@ i:before {
 }
 
 .banner_inner_text {
-  padding-top: 200px;
+  padding-top: 150px;
   position: relative;
-  padding-bottom: 95px;
+  padding-bottom: 50px;
 }
 
 .banner_inner_text:before {
