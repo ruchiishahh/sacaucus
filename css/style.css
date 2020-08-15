@@ -73,7 +73,7 @@ Table of Content:
 
 .my-zoom-join-icon {
   margin: 10px;
-  width: 120px;
+  width: 150px;
   height: 50px;
   vertical-align: middle;
   text-align: center;
@@ -81,6 +81,23 @@ Table of Content:
   background-color: white;
   font: white;
   line-height: 50px;
+  vertical-align: middle;
+  border-radius: 10px;
+  display: inline-block;
+  border-color: #4267B2
+
+}
+
+.my-part-2-zoom-join-icon {
+  margin: 1px;
+  width: 200px;
+  height: 30px;
+  vertical-align: middle;
+  text-align: center;
+  color: white;
+  background-color: white;
+  font: white;
+  line-height: 30px;
   vertical-align: middle;
   border-radius: 10px;
   display: inline-block;
