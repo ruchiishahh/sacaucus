@@ -145,12 +145,16 @@ Table of Content:
   position: relative;
   width: 100%;
   max-width: 400px;
+  font: "Roboto", sans-serif;
+  font-weight: lighter;
 }
 
 .ASUCimage {
   display: block;
   width: 100%;
   height: auto;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
 }
 
 .ASUCoverlay {
@@ -161,18 +165,22 @@ Table of Content:
   right: 0;
   height: 100%;
   width: 100%;
-  opacity: 0;
+  opacity: 10%;
   transition: .3s ease;
   background-color: black;
+  font: "Roboto", sans-serif;
+  font-weight: lighter;
 }
 
 .ASUCcontainer:hover .ASUCoverlay {
-  opacity: 1;
+  opacity: 70%;
 }
 
 .ASUCtext {
   color: white;
   font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
   position: absolute;
   bottom: 20%;
   left: 50%;
@@ -183,7 +191,9 @@ Table of Content:
 
 .ASUCicon {
   color: white;
-  font-size: 50px;
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
   position: absolute;
   top: 50%;
   left: 50%;
